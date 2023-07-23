@@ -63,6 +63,12 @@
   #include "samd21j17a.h"
 #elif defined(__SAMD21J18A__) || defined(__ATSAMD21J18A__)
   #include "samd21j18a.h"
+
+
+#elif defined(__SAMD21G17D__) || defined(__ATSAMD21G17D__)
+  #include "samd21g17d.h"
+
+
 #else
   #error Library does not support the specified device.
 #endif
